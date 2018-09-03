@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+$text-color: #43484e;
+$text-color-light: #60666d;
+$bg-color: #fafbfb;
+$divider-color: #d9dde0;
+
+$color-main-blue: #3f4bff;
+
+$main-font: 'Lato', sans-serif;
+$mono-font: 'Inconsolata', monospace;
+
+$box-shadow: inset 1px 1px rgba(0,0,0,.04);
+$border-radius: 4px;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+    color: $text-color;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+    border-top: 1px solid $divider-color;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+    color: $text-color-light;
+}
+
+pre {
+    padding: 24px;
+    box-shadow: $box-shadow;
+    background-color: $bg-color;
+    font-family: $mono-font;
+    border-radius: $border-radius;
+}
+
+.wrap {
+    padding: 20px 60px;
+}
+
+.strong {
+    font-weight: 700;
+    color: $text-color;
+}
+
+.title {
+    color: $color-main-blue;
+}
